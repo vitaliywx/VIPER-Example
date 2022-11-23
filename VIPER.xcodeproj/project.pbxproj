@@ -9,21 +9,47 @@
 /* Begin PBXBuildFile section */
 		D3C270F2292BA72300A148F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C270F1292BA72300A148F5 /* AppDelegate.swift */; };
 		D3C270F4292BA72300A148F5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C270F3292BA72300A148F5 /* SceneDelegate.swift */; };
-		D3C270F6292BA72300A148F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C270F5292BA72300A148F5 /* ViewController.swift */; };
+		D3C270F6292BA72300A148F5 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C270F5292BA72300A148F5 /* WelcomeViewController.swift */; };
 		D3C270F9292BA72300A148F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3C270F7292BA72300A148F5 /* Main.storyboard */; };
 		D3C270FB292BA72600A148F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3C270FA292BA72600A148F5 /* Assets.xcassets */; };
 		D3C270FE292BA72600A148F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3C270FC292BA72600A148F5 /* LaunchScreen.storyboard */; };
+		D3C27109292BA7FA00A148F5 /* DateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C27108292BA7FA00A148F5 /* DateService.swift */; };
+		D3C2710B292BA81800A148F5 /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C2710A292BA81800A148F5 /* WeatherService.swift */; };
+		D3C2710F292BAAC600A148F5 /* WelcomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C2710E292BAAC600A148F5 /* WelcomePresenter.swift */; };
+		D3C27111292BABD700A148F5 /* WelcomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C27110292BABD700A148F5 /* WelcomeRouter.swift */; };
+		D3C27113292BAC6000A148F5 /* WelcomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C27112292BAC6000A148F5 /* WelcomeInteractor.swift */; };
+		D3C27115292BACF000A148F5 /* WelcomeModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C27114292BACF000A148F5 /* WelcomeModuleBuilder.swift */; };
+		D3C2711C292BB80500A148F5 /* ImageViewerModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C27117292BB80500A148F5 /* ImageViewerModuleBuilder.swift */; };
+		D3C2711D292BB80500A148F5 /* ImageViewerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C27118292BB80500A148F5 /* ImageViewerPresenter.swift */; };
+		D3C2711E292BB80500A148F5 /* ImageViewerRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C27119292BB80500A148F5 /* ImageViewerRouter.swift */; };
+		D3C2711F292BB80500A148F5 /* ImageViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C2711A292BB80500A148F5 /* ImageViewerViewController.swift */; };
+		D3C27120292BB80500A148F5 /* ImageViewerInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C2711B292BB80500A148F5 /* ImageViewerInteractor.swift */; };
+		D3C27122292BB92200A148F5 /* ImageViewer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3C27121292BB92200A148F5 /* ImageViewer.storyboard */; };
+		D3C271AC292E008000A148F5 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = D3C271AB292E008000A148F5 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D3C270EE292BA72300A148F5 /* VIPER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VIPER.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3C270F1292BA72300A148F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3C270F3292BA72300A148F5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D3C270F5292BA72300A148F5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D3C270F5292BA72300A148F5 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		D3C270F8292BA72300A148F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D3C270FA292BA72600A148F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3C270FD292BA72600A148F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D3C270FF292BA72600A148F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3C27108292BA7FA00A148F5 /* DateService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateService.swift; sourceTree = "<group>"; };
+		D3C2710A292BA81800A148F5 /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
+		D3C2710E292BAAC600A148F5 /* WelcomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePresenter.swift; sourceTree = "<group>"; };
+		D3C27110292BABD700A148F5 /* WelcomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeRouter.swift; sourceTree = "<group>"; };
+		D3C27112292BAC6000A148F5 /* WelcomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeInteractor.swift; sourceTree = "<group>"; };
+		D3C27114292BACF000A148F5 /* WelcomeModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeModuleBuilder.swift; sourceTree = "<group>"; };
+		D3C27117292BB80500A148F5 /* ImageViewerModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewerModuleBuilder.swift; sourceTree = "<group>"; };
+		D3C27118292BB80500A148F5 /* ImageViewerPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewerPresenter.swift; sourceTree = "<group>"; };
+		D3C27119292BB80500A148F5 /* ImageViewerRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewerRouter.swift; sourceTree = "<group>"; };
+		D3C2711A292BB80500A148F5 /* ImageViewerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewerViewController.swift; sourceTree = "<group>"; };
+		D3C2711B292BB80500A148F5 /* ImageViewerInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewerInteractor.swift; sourceTree = "<group>"; };
+		D3C27121292BB92200A148F5 /* ImageViewer.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ImageViewer.storyboard; sourceTree = "<group>"; };
+		D3C271AB292E008000A148F5 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +66,7 @@
 		D3C270E5292BA72300A148F5 = {
 			isa = PBXGroup;
 			children = (
+				D3C271AB292E008000A148F5 /* .gitignore */,
 				D3C270F0292BA72300A148F5 /* VIPER */,
 				D3C270EF292BA72300A148F5 /* Products */,
 			);
@@ -56,15 +83,67 @@
 		D3C270F0292BA72300A148F5 /* VIPER */ = {
 			isa = PBXGroup;
 			children = (
+				D3C2710D292BAA2300A148F5 /* Welcome */,
+				D3C27116292BB50100A148F5 /* ImageViewer */,
+				D3C27107292BA7D800A148F5 /* API */,
+				D3C27105292BA73700A148F5 /* Application */,
+				D3C27106292BA74F00A148F5 /* Resources */,
+			);
+			path = VIPER;
+			sourceTree = "<group>";
+		};
+		D3C27105292BA73700A148F5 /* Application */ = {
+			isa = PBXGroup;
+			children = (
 				D3C270F1292BA72300A148F5 /* AppDelegate.swift */,
 				D3C270F3292BA72300A148F5 /* SceneDelegate.swift */,
-				D3C270F5292BA72300A148F5 /* ViewController.swift */,
-				D3C270F7292BA72300A148F5 /* Main.storyboard */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		D3C27106292BA74F00A148F5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				D3C270FA292BA72600A148F5 /* Assets.xcassets */,
 				D3C270FC292BA72600A148F5 /* LaunchScreen.storyboard */,
 				D3C270FF292BA72600A148F5 /* Info.plist */,
 			);
-			path = VIPER;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D3C27107292BA7D800A148F5 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				D3C27108292BA7FA00A148F5 /* DateService.swift */,
+				D3C2710A292BA81800A148F5 /* WeatherService.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		D3C2710D292BAA2300A148F5 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				D3C270F7292BA72300A148F5 /* Main.storyboard */,
+				D3C270F5292BA72300A148F5 /* WelcomeViewController.swift */,
+				D3C2710E292BAAC600A148F5 /* WelcomePresenter.swift */,
+				D3C27112292BAC6000A148F5 /* WelcomeInteractor.swift */,
+				D3C27110292BABD700A148F5 /* WelcomeRouter.swift */,
+				D3C27114292BACF000A148F5 /* WelcomeModuleBuilder.swift */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		D3C27116292BB50100A148F5 /* ImageViewer */ = {
+			isa = PBXGroup;
+			children = (
+				D3C27121292BB92200A148F5 /* ImageViewer.storyboard */,
+				D3C2711A292BB80500A148F5 /* ImageViewerViewController.swift */,
+				D3C27118292BB80500A148F5 /* ImageViewerPresenter.swift */,
+				D3C2711B292BB80500A148F5 /* ImageViewerInteractor.swift */,
+				D3C27119292BB80500A148F5 /* ImageViewerRouter.swift */,
+				D3C27117292BB80500A148F5 /* ImageViewerModuleBuilder.swift */,
+			);
+			path = ImageViewer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +204,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3C271AC292E008000A148F5 /* .gitignore in Resources */,
 				D3C270FE292BA72600A148F5 /* LaunchScreen.storyboard in Resources */,
 				D3C270FB292BA72600A148F5 /* Assets.xcassets in Resources */,
+				D3C27122292BB92200A148F5 /* ImageViewer.storyboard in Resources */,
 				D3C270F9292BA72300A148F5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +219,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3C270F6292BA72300A148F5 /* ViewController.swift in Sources */,
+				D3C2711E292BB80500A148F5 /* ImageViewerRouter.swift in Sources */,
+				D3C2710B292BA81800A148F5 /* WeatherService.swift in Sources */,
+				D3C2711F292BB80500A148F5 /* ImageViewerViewController.swift in Sources */,
+				D3C27113292BAC6000A148F5 /* WelcomeInteractor.swift in Sources */,
+				D3C2710F292BAAC600A148F5 /* WelcomePresenter.swift in Sources */,
+				D3C2711D292BB80500A148F5 /* ImageViewerPresenter.swift in Sources */,
+				D3C270F6292BA72300A148F5 /* WelcomeViewController.swift in Sources */,
 				D3C270F2292BA72300A148F5 /* AppDelegate.swift in Sources */,
+				D3C27115292BACF000A148F5 /* WelcomeModuleBuilder.swift in Sources */,
+				D3C27111292BABD700A148F5 /* WelcomeRouter.swift in Sources */,
 				D3C270F4292BA72300A148F5 /* SceneDelegate.swift in Sources */,
+				D3C27109292BA7FA00A148F5 /* DateService.swift in Sources */,
+				D3C27120292BB80500A148F5 /* ImageViewerInteractor.swift in Sources */,
+				D3C2711C292BB80500A148F5 /* ImageViewerModuleBuilder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,7 +381,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = G4CFK969KL;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = VIPER/Info.plist;
+				INFOPLIST_FILE = VIPER/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -317,7 +409,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = G4CFK969KL;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = VIPER/Info.plist;
+				INFOPLIST_FILE = VIPER/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
